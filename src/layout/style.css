@@ -90,7 +90,7 @@
     }
   
     .autocomplete-container {
-      width: 300px !important;
+      width: 200px !important;
     }
   
     .autocomplete-container .MuiOutlinedInput-root {
@@ -110,4 +110,53 @@
       font-size: 15px !important;
     }
   }
+
+  .list-item-primary {
+    font-weight: bold !important;
+    color: #333 !important;
+    font-size: 1rem !important;
+  }
+  
+  .list-item-primary-responsive {
+    font-size: 0.9rem !important;
+  }
+  
+  .list-item-message {
+    color: #555 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-size: 0.9rem !important;
+  }
+  
+  .list-item-message-responsive {
+    font-size: 0.75rem !important;
+  }
+  
+  .list-item-date {
+    display: block !important;
+    color: #999 !important;
+    text-align: right !important;
+    margin-top: 5px !important;
+    font-size: 0.75rem !important;
+  }
+  
+  .list-item-date-responsive {
+    font-size: 0.65rem !important;
+  }
+
+  
+  
+  @media (max-width: 768px) {
+    .list-item-primary {
+      font-size: 0.6rem !important;
+    }
+    .list-item-message {
+      font-size: 0.45rem !important;
+    }
+    .list-item-date {
+      font-size: 0.25rem !important;
+    }
+  }
+  
   

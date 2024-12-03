@@ -219,6 +219,8 @@ function MessageContent() {
                                 overflowY: "auto",
                             }}
                         >
+
+
                             <List>
                                 {filteredData.map((chat, index) => (
                                     <ListItem key={index} alignItems="flex-start" divider>
@@ -227,16 +229,25 @@ function MessageContent() {
                                         </ListItemAvatar>
                                         <ListItemText
                                             primary={
-                                                <Typography variant="subtitle1" style={{ fontWeight: "bold", color: "#333" }}>
+                                                <Typography
+                                                    variant="subtitle1"
+                                                    className="list-item-primary list-item-primary-responsive"
+                                                >
                                                     {chat.name}
                                                 </Typography>
                                             }
                                             secondary={
                                                 <>
-                                                    <Typography variant="body2" style={{ color: "#555", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                                                    <Typography
+                                                        variant="body2"
+                                                        className="list-item-message list-item-message-responsive"
+                                                    >
                                                         {chat.message}
                                                     </Typography>
-                                                    <Typography variant="caption" style={{ display: "block", color: "#999", textAlign: "right", marginTop: 5 }}>
+                                                    <Typography
+                                                        variant="caption"
+                                                        className="list-item-date list-item-date-responsive"
+                                                    >
                                                         {chat.date}
                                                     </Typography>
                                                 </>
@@ -245,6 +256,7 @@ function MessageContent() {
                                     </ListItem>
                                 ))}
                             </List>
+
                         </div>
                     </Paper>
                 </Grid>
@@ -258,6 +270,7 @@ function MessageContent() {
                             flexDirection: "column",
                             justifyContent: "space-between",
                             height: "calc(100vh - 94px)",
+                            maxHeight: 650,
                             backgroundColor: "#f0f0f0",
                         }}
                     >
