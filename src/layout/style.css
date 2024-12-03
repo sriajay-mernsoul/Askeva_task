@@ -1,0 +1,113 @@
+
+.app-bar {
+    background-color: white !important;
+    color: black !important;
+    height: 100 !important;
+  }
+  
+  .icon-button {
+    margin-right: 16px !important;
+  }
+  
+  .avatar {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .typography {
+    flex-grow: 1 !important;
+    font-size: 18px !important;
+  }
+  
+
+  .autocomplete-container {
+    width: 300px !important;
+  }
+  
+  .autocomplete-container .MuiOutlinedInput-root {
+    height: 40px !important;
+  }
+  
+  .autocomplete-container .MuiInputBase-input {
+    padding: 8px !important;
+    font-size: 16px !important;
+  }
+  
+
+  .right-avatar {
+   
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .icon {
+    font-size: 24px !important;
+  }
+
+  @media (max-width: 1024px) {
+    .avatar {
+      width: 32px !important;
+      height: 32px !important;
+    }
+  
+    .typography {
+      font-size: 16px !important;
+    }
+
+    .autocomplete-container{
+        width: 200px !important;
+    }
+  
+    
+  
+    .autocomplete-container .MuiOutlinedInput-root {
+      height: 25px !important;
+    }
+  
+    .autocomplete-container .MuiInputBase-input {
+      font-size: 14px !important;
+    }
+  
+    .right-avatar {
+      width: 28px !important;
+      height: 28px !important;
+    }
+  
+    .icon {
+      font-size: 18px !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .avatar {
+      width: 32px !important;
+      height: 32px !important;
+    }
+  
+    .typography {
+      font-size: 14px !important;
+    }
+  
+    .autocomplete-container {
+      width: 300px !important;
+    }
+  
+    .autocomplete-container .MuiOutlinedInput-root {
+      height: 25px !important;
+    }
+  
+    .autocomplete-container .MuiInputBase-input {
+      font-size: 14px !important;
+    }
+  
+    .right-avatar {
+      width: 25px !important;
+      height: 25px !important;
+    }
+  
+    .icon {
+      font-size: 15px !important;
+    }
+  }
+  
